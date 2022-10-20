@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,700;1,300&display=swap');
+
+@media only screen and (max-width: 390px) {
+    
+}
+
+.mochila{
+    font-family: 'Josefin Sans', sans-serif;
+        font-weight: bold;
+        color: #181818;
+}
+
+p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.valor{
+    background-color:#80ED99;
+    width: 50px;
+    height: 25px;
+}

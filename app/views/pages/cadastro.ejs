@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Area Cadastro</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/stylecadastro.css">
+</head>
+<body>
+    <header>
+        <img src="img/logoathenapreta.png" alt="logo athena">
+    </header>
+    <main>
+        <h2>Cadastro</h2>
+        <form method="post" action="/cadastro">
+            <div id="arealogin">
+                <input type="text" name="Nome" id="escrita" value="Nome" onfocus="this.value='';">
+                <input type="text" name="E-mail" id="escrita" value="E-mail" onfocus="this.value='';">
+                <input type="text" name="Senha" id="escrita" value="Senha" onfocus="this.value='';">
+                <input type="text" name="Confirmar" id="escrita" value="Confirmar senha" onfocus="this.value='';">
+            </div>
+        
+            <input type="checkbox">
+            <h6 id="termos"> Eu li, e concordo com os <a href="">termos de serviço</a> </h6>
+            <a href="index">
+                <input type="submit" value="Cadastrar-se" id="button">
+            </a>
+        </form>
+        <div class="icon-social">
+            <img src="img/google.png" alt="logo-google" id="google">
+            <img src="img/facebook.png" alt="logo-facebook" id="facebook">
+        </div>
+    </main>
+</body>
+</html>

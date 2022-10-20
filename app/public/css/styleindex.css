@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,700;1,300&display=swap');
+
+@media only screen and (max-width: 390px) {
+    body header a img {
+        max-width: 250px;
+        max-height: 250px;
+        transform: translate(-30px, -70px);
+        margin: 10px;
+    }
+
+    #txtBusca::-webkit-input-placeholder{
+      translate: 10px, 0px;
+    }
+
+    #escrita {
+        border-radius: 8px;
+        max-width: 311px;
+        max-height: 45px;
+        width: 290px;   
+        height: 35px;
+        border: 0px;
+        margin: 10px;
+        margin-left: 20px;
+        margin-right: 0px;
+        outline: 0px;
+        color: #707070;
+        font-family: 'Josefin Sans', sans-serif;
+        padding-left: 10px;
+        padding-right: 10px;
+        background-color: #fafafa;
+        
+    } 
+
+    #buscar {
+        background-color: #f6d088;
+        outline: 0px;
+        border: 0px;
+        border-radius: 8px;
+        width: 35px;
+        height: 35px;
+        transform: translate(0px, -212px);
+        margin: 3px;
+    }
+
+    .buscar {
+        transform: translate(0px, -200px);
+    }
+
+    body header nav {
+        transform: translate(0px, -200px);
+        margin-left: 20px;
+        margin-top: 5px;
+    }
+
+    #navb {
+        background-color: #f6d088;
+        border: 0px;
+        border-radius: 8px;
+        width: 85px;
+        height: 30px;
+        font-family: 'Josefin Sans', sans-serif;
+        color: #181818;
+        transform: translate(0px, -30px);
+    }
+
+    body {
+        background-color: #ededed;
+    }
+
+    body header {
+        max-height: 180px;
+    }
+
+    #menu {
+        background-color: white;
+        outline: 0px;
+        border: 0px;
+        border-radius: 8px;
+        width: 35px;
+        height: 35px;
+        transform: translate(110px, -205px);
+        margin: 3px;
+    }
+
+    #compras {
+        background-color: #f6d088;
+        outline: 0px;
+        border: 0px;
+        border-radius: 8px;
+        width: 35px;
+        height: 35px;
+        transform: translate(10px, -205px);
+        margin: 3px;
+    }
+
+
+    
+      
+      #txtBusca{
+        border-radius: 8px;
+        max-width: 311px;
+        max-height: 45px;
+        width: 290px;   
+        height: 35px;
+        border: 0px;
+        margin: 10px;
+        margin-left: 20px;
+        margin-right: 0px;
+        outline: 0px;
+        color: #707070;
+        font-family: 'Josefin Sans', sans-serif;
+        padding-left: 10px;
+        padding-right: 10px;
+        background-color: #fafafa;
+        transform: translate(0px, -230px);
+      }
+
+      main h2{
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: bold;
+        text-align: center;
+        font-size: xx-large;
+        margin: 10%;
+        color: #181818;
+      }
+
+      
+      .uniformes{
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: bold;
+
+      }
+
+      .materiais{
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: bold;
+        color: #181818;
+
+      }
+
+
+      .utensilios{
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: bold;
+        color: #181818;
+      }
+
+      .mochila {
+        background-color: #f6d088;
+        width: 270px;
+        height: 300px;
+        border-radius: 8px;
+       
+        
+      }
+
+      .uniforme {
+        background-color: #f6d088;
+        width: 270px;
+        height: 300px;
+        border-radius: 8px;
+     
+      }
+
+      .lapis {
+        background-color: #f6d088;
+        width: 270px;
+        height: 300px;
+        border-radius: 8px;
+    margin: auto; 
+      }
+
+      .container {
+        overflow: auto;
+        white-space: nowrap;
+        padding: 5px 70px 5px 20px;
+        background: transparent;
+        height: 100%;
+        border-radius:15px; 
+      }
+
+      .scrool {
+        display:inline-block;
+      }
+
+      .scrool img{
+        margin: 20px;
+      }
+
+}
