@@ -124,52 +124,6 @@
         color: #181818;
       }
 
-      
-      .uniformes{
-        font-family: 'Josefin Sans', sans-serif;
-        font-weight: bold;
-
-      }
-
-      .materiais{
-        font-family: 'Josefin Sans', sans-serif;
-        font-weight: bold;
-        color: #181818;
-
-      }
-
-
-      .utensilios{
-        font-family: 'Josefin Sans', sans-serif;
-        font-weight: bold;
-        color: #181818;
-      }
-
-      .mochila {
-        background-color: #f6d088;
-        width: 270px;
-        height: 300px;
-        border-radius: 8px;
-       
-        
-      }
-
-      .uniforme {
-        background-color: #f6d088;
-        width: 270px;
-        height: 300px;
-        border-radius: 8px;
-     
-      }
-
-      .lapis {
-        background-color: #f6d088;
-        width: 270px;
-        height: 300px;
-        border-radius: 8px;
-    margin: auto; 
-      }
-
       .container {
         overflow: auto;
         white-space: nowrap;
