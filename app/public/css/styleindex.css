@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,700;1,300&display=swap');
 
+
+
 @media only screen and (max-width: 390px) {
     body header a img {
         max-width: 250px;
@@ -140,5 +142,45 @@
       .scrool img{
         margin: 20px;
       }
+      main h1{
+        font-family: 'Josefin Sans', sans-serif;
+        text-align: center;
+      }
+      main p{
+        text-align: center;
+        color: #707070;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 100;
+        margin: 7px;
+      }
 
-}
+      .atendimento{
+        padding: 10px;
+        width: 150px;
+        height: 150px;
+        text-align: center;
+        background-color: white;
+        border-radius: 15px;
+      }
+      .entregas{
+        width: 150px;
+        height: 150px;
+        margin: 10px;
+        text-align: center;
+        background-color: white;
+        border-radius: 15px;
+      }
+
+      .produto{
+        width: 150px;
+        height: 150px;
+        margin: 10px;
+        text-align: center;
+        background-color: white;
+        border-radius: 15px;
+     }
+
+    }
+    main div h4{
+      font-family: 'Josefin Sans', sans-serif;
+    }
