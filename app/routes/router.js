@@ -19,11 +19,11 @@ router.get("/produto", function(req, res){
 );
 
 router.post("/cadastro", function(req, res){
-    res.render("pages/index")
+    res.render("pages/cadastro")
 });
 
 router.post("/login", function(req, res){
-    res.render("pages/index")
+    res.render("pages/login")
 });
 
 router.post("/produto", function(req, res){
