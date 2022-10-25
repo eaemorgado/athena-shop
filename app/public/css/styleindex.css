@@ -3,11 +3,21 @@
 
 
 @media only screen and (max-width: 390px) {
+
+  /* CSS DISPLAY GRID CONFIG*/
+
+  .container{
+    max-width: 380px;
+    margin: 0px auto;
+    border: 1px solid red
+  }
+
+    body{
+      display: grid;
+    }
     body header a img {
         max-width: 250px;
         max-height: 250px;
-        transform: translate(-30px, -70px);
-        margin: 10px;
     }
 
     #txtBusca::-webkit-input-placeholder{
@@ -21,9 +31,6 @@
         width: 290px;   
         height: 35px;
         border: 0px;
-        margin: 10px;
-        margin-left: 20px;
-        margin-right: 0px;
         outline: 0px;
         color: #707070;
         font-family: 'Josefin Sans', sans-serif;
@@ -44,12 +51,8 @@
         margin: 3px;
     }
 
-    .buscar {
-        transform: translate(0px, -200px);
-    }
-
     body header nav {
-        transform: translate(0px, -200px);
+        
         margin-left: 20px;
         margin-top: 5px;
     }
@@ -62,7 +65,7 @@
         height: 30px;
         font-family: 'Josefin Sans', sans-serif;
         color: #181818;
-        transform: translate(0px, -30px);
+        
     }
 
     body {
@@ -80,7 +83,6 @@
         border-radius: 8px;
         width: 35px;
         height: 35px;
-        transform: translate(110px, -205px);
         margin: 3px;
     }
 
@@ -91,7 +93,6 @@
         border-radius: 8px;
         width: 35px;
         height: 35px;
-        transform: translate(10px, -205px);
         margin: 3px;
     }
 
@@ -114,7 +115,6 @@
         padding-left: 10px;
         padding-right: 10px;
         background-color: #fafafa;
-        transform: translate(0px, -230px);
       }
 
       main h2{
@@ -135,13 +135,6 @@
         border-radius:15px; 
       }
 
-      .scrool {
-        display:inline-block;
-      }
-
-      .scrool img{
-        margin: 20px;
-      }
       main h1{
         font-family: 'Josefin Sans', sans-serif;
         text-align: center;
@@ -151,14 +144,12 @@
         color: #707070;
         font-family: 'Josefin Sans', sans-serif;
         font-weight: 100;
-        margin: 7px;
       }
 
       .atendimento{
         padding: 10px;
         width: 150px;
         height: 150px;
-        text-align: center;
         background-color: white;
         border-radius: 15px;
       }
@@ -166,7 +157,6 @@
         width: 150px;
         height: 150px;
         margin: 10px;
-        text-align: center;
         background-color: white;
         border-radius: 15px;
       }
