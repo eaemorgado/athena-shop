@@ -5,20 +5,32 @@
 
 @media only screen and (max-width: 390px) {
  
-    body { display: grid;
-        grid-template-areas: "header header header" "login login login" "google facebook" "cadastrar";
-        }
+    body {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    #logoathena {
+        align-items: flex-start;
+        width: 202px;
+        height: 109px;
+        margin: 25%;
+    }
+
+    .area-login {
+        box-sizing: 344px 293px;
+        background-color: #F5D088;
+        align-items: center;
+        margin: auto;
         
-        header img {
-            grid-area: header;
-        }
-    
-        main div:nth-child(1) .area-login {
-            grid-area: login;
-            background-color: green;
-        }
-    
-        
+    }
+
+    .iconsocial {
+        width: 29px;
+        height: 29px;
+        align-items: flex-end;
+    }
 }
 
 
