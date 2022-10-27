@@ -5,20 +5,68 @@
 
 @media only screen and (max-width: 390px) {
  
-    body { display: grid;
-        grid-template-areas: "header header header" "login login login" "google facebook" "cadastrar";
-        }
+    .tudo-do-login {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #logoathena {
+        margin-top: 100px;
+    }
+
+    .area-login {
+        width: 322px;
+        height: 293px;
+        background-color: #F5D088;
+        margin-top: 150px;
+        margin-left: 32.5px;
+        text-align: center;
+        border-radius: 15px;
+    }
+
+    #google {
+        width: 29px;
+        height: 29px;
+        align-items: center;
+    }
+
+    #facebook {
+        width: 29px;
+        height: 29px;
         
-        header img {
-            grid-area: header;
-        }
-    
-        main div:nth-child(1) .area-login {
-            grid-area: login;
-            background-color: green;
-        }
-    
-        
+    }
+
+    .cadastrar{
+       justify-content: center;
+    }
+
+    #entrar {
+        background-color: #3E3E3E;
+        color: white;
+        width: 129px;
+        height: 42.15px;
+        border-radius: 10px;
+    }
+
+    .text-login {
+        margin-top: 10px;
+    }
+
+    .email {
+        margin-top: 25px;
+        margin-bottom: 15px;
+    }
+
+    #escrita {
+        color: #585858;
+        width: 275px;
+        height: 35px;
+        border-radius: 18px;
+        text-align: left;
+        border: none;
+
+    }
 }
 
 

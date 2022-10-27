@@ -12,39 +12,44 @@
 </head>
 <body>
     <header>
-        <img src="img/logoathenapreta.png" alt="logo athena" id="logoathena">
+        <div class="tudo-do-login">
+            <img src="img/logoathenapreta.png" alt="logo athena" id="logoathena">
     </header>
     <main>
         <div class="area-login">
-            <h2>Login</h2>
-            <form method="post" action="/login">
+                <h2 id="text-login">Login</h2>
+                <form method="post" action="/login">
+
             <div class="email">
-                
                 <input type="text" id="escrita" value="E-mail" onfocus="this.value='';">
                 <label for="E-mail"></label>
             </div>
 
-            <div class="senha">
+                <div class="senha">
                 
-                <input type="text" id="escrita" value="Senha" onfocus="this.value='';">
-                <label for="Senha"></label>
-            </div>
+                    <input type="text" id="escrita" value="Senha" onfocus="this.value='';">
+                    <label for="Senha"></label>
+                </div>
             
             <input type="checkbox" id="box">
             <h6 id="termos">Lembrar Senha</h6>
             <a href="index">
-                <input type="submit" value="Entrar" id="button">
-            </a>
-            </form>
+                <input type="submit" value="Entrar" id="entrar">
+                </a>
+                </form>
+            </div>
+
             <div class="iconsocial">
                 <img src="img/google.png" alt="logo-google" id="google">
                 <img src="img/facebook.png" alt="logo-facebook" id="facebook">
             </div>
-            <h4 id="ou"></h4>
-            <a href="cadastro">
-                <input type="button" value="Cadastrar-se" id="button">
-            </a>
-            <div></div>
+            
+            <div class="cadastrar">
+                <a href="cadastro">
+                    <input type="button" value="Cadastrar-se" id="cadastrar">
+                </a>
+            </div>
+            
         </div>
     </main>
 </body>
