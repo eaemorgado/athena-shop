@@ -5,6 +5,10 @@
 
 @media only screen and (max-width: 390px) {
  
+    body {
+        background-color: purple;
+    }
+
     .tudo-do-login {
         display: flex;
         flex-direction: column;
@@ -13,32 +17,69 @@
 
     #logoathena {
         margin-top: 100px;
+        
     }
 
     .area-login {
         width: 322px;
         height: 293px;
-        background-color: #F5D088;
+        background-color: #FFB74A;
         margin-top: 150px;
         margin-left: 32.5px;
         text-align: center;
         border-radius: 15px;
     }
 
+    #box {
+        margin-right: 250px;
+        margin-top: 10px;
+        width: 21px;
+        height: 21px;
+        border-radius: 5px;
+    }
+
     #google {
         width: 29px;
         height: 29px;
-        align-items: center;
+        max-width: 29px;
+        max-height: 29px;
+    }
+
+    .google {
+        width: 150px;
+        height: 50px;
+        background-color: white;
+        border-radius: 8px;
+        border-width: 1px;
+        border-color: #FFB74A;
     }
 
     #facebook {
         width: 29px;
         height: 29px;
-        
     }
 
-    .cadastrar{
-       justify-content: center;
+    .facebook {
+        width: 150px;
+        height: 50px;
+        background-color: white;
+        border-radius: 8px;
+        border-width: 1px;
+        border-color: #FFB74A;
+    }
+
+    .facebook h2{
+        margin-left: 50px;
+    }
+
+    #cadastrar{
+        margin-left: 130px;
+        margin-top: 75px;
+        background-color: #3E3E3E;
+        color: white;
+        width: 129px;
+        height: 42.15px;
+        border-radius: 10px;
     }
 
     #entrar {
@@ -47,6 +88,7 @@
         width: 129px;
         height: 42.15px;
         border-radius: 10px;
+        margin-top: 20px;
     }
 
     .text-login {
@@ -54,7 +96,7 @@
     }
 
     .email {
-        margin-top: 25px;
+        margin-top: 50px;
         margin-bottom: 15px;
     }
 
@@ -64,8 +106,17 @@
         height: 35px;
         border-radius: 18px;
         text-align: left;
-        border: none;
+        border: 0px;
 
+    }
+
+    #text-login {
+        margin-top: 20px;
+    }
+
+    .icones {
+        flex-direction: row;
+        align-items: center;
     }
 }
 
