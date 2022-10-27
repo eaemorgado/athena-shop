@@ -5,31 +5,67 @@
 
 @media only screen and (max-width: 390px) {
  
-    body {
+    .tudo-do-login {
         display: flex;
-        justify-content: center;
-
+        flex-direction: column;
+        align-items: center;
     }
 
     #logoathena {
-        align-items: flex-start;
-        width: 202px;
-        height: 109px;
-        margin: 25%;
+        margin-top: 100px;
     }
 
     .area-login {
-        box-sizing: 344px 293px;
+        width: 322px;
+        height: 293px;
         background-color: #F5D088;
+        margin-top: 150px;
+        margin-left: 32.5px;
+        text-align: center;
+        border-radius: 15px;
+    }
+
+    #google {
+        width: 29px;
+        height: 29px;
         align-items: center;
-        margin: auto;
+    }
+
+    #facebook {
+        width: 29px;
+        height: 29px;
         
     }
 
-    .iconsocial {
-        width: 29px;
-        height: 29px;
-        align-items: flex-end;
+    .cadastrar{
+       justify-content: center;
+    }
+
+    #entrar {
+        background-color: #3E3E3E;
+        color: white;
+        width: 129px;
+        height: 42.15px;
+        border-radius: 10px;
+    }
+
+    .text-login {
+        margin-top: 10px;
+    }
+
+    .email {
+        margin-top: 25px;
+        margin-bottom: 15px;
+    }
+
+    #escrita {
+        color: #585858;
+        width: 275px;
+        height: 35px;
+        border-radius: 18px;
+        text-align: left;
+        border: none;
+
     }
 }
 
