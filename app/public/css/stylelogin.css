@@ -4,19 +4,11 @@
 
 @media only screen and (max-width: 390px) {
  
-    body {
-        background-color: purple;
-    }
-
-    .tudo-do-login {
+    .container{
         display: flex;
         flex-direction: column;
-        align-items: center;
-    }
-
-    #logoathena {
-        margin-top: 100px;
-        
+        justify-content: center;
+        background-color: #EBEBEB;
     }
 
     .area-login {
@@ -29,56 +21,21 @@
         border-radius: 15px;
     }
 
-    #box {
-        margin-right: 250px;
-        margin-top: 10px;
-        width: 21px;
-        height: 21px;
-        border-radius: 5px;
+    #escrita {
+        color: #585858;
+        width: 275px;
+        height: 35px;
+        border-radius: 18px;
+        text-align: left;
+        border: 0px;
     }
 
-    #google {
-        width: 29px;
-        height: 29px;
-        max-width: 29px;
-        max-height: 29px;
+    .email {
+        margin-top: 50px;
     }
 
-    .google {
-        width: 150px;
-        height: 50px;
-        background-color: white;
-        border-radius: 8px;
-        border-width: 1px;
-        border-color: #FFB74A;
-    }
-
-    #facebook {
-        width: 29px;
-        height: 29px;
-    }
-
-    .facebook {
-        width: 150px;
-        height: 50px;
-        background-color: white;
-        border-radius: 8px;
-        border-width: 1px;
-        border-color: #FFB74A;
-    }
-
-    .facebook h2{
-        margin-left: 50px;
-    }
-
-    #cadastrar{
-        margin-left: 130px;
-        margin-top: 75px;
-        background-color: #3E3E3E;
-        color: white;
-        width: 129px;
-        height: 42.15px;
-        border-radius: 10px;
+    .senha{
+        margin-top: 25px;
     }
 
     #entrar {
@@ -90,31 +47,55 @@
         margin-top: 20px;
     }
 
-    .text-login {
+    #box {
+        margin-right: 250px;
         margin-top: 10px;
     }
 
-    .email {
-        margin-top: 50px;
-        margin-bottom: 15px;
-    }
-
-    #escrita {
-        color: #585858;
-        width: 275px;
-        height: 35px;
-        border-radius: 18px;
-        text-align: left;
-        border: 0px;
-
-    }
-
-    #text-login {
-        margin-top: 20px;
-    }
-
-    .icones {
+    .icones{
         flex-direction: row;
-        align-items: center;
+        justify-content: center;
+    }
+
+    .google {
+        width: 150px;
+        height: 50px;
+        background-color: white;
+        border-radius: 8px;
+        border-width: 1px;
+        border-color: #FFB74A;
+    }
+
+    .facebook {
+        width: 150px;
+        height: 50px;
+        background-color: white;
+        border-radius: 8px;
+        border-width: 1px;
+        border-color: #FFB74A;
+    }
+
+    #google {
+        width: 29px;
+        height: 29px;
+        max-width: 29px;
+        max-height: 29px;
+    }
+
+    #facebook {
+        width: 29px;
+        height: 29px;
+        max-width: 29px;
+        max-height: 29px;
+    }
+
+    #cadastrar{
+        margin-left: 130px;
+        margin-top: 75px;
+        background-color: #3E3E3E;
+        color: white;
+        width: 129px;
+        height: 42.15px;
+        border-radius: 10px;
     }
 }
