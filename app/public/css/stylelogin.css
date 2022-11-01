@@ -11,6 +11,10 @@
         background-color: #EBEBEB;
     }
 
+    .tudo-do-login {
+       justify-content: center;
+    }
+
     .area-login {
         width: 322px;
         height: 293px;
@@ -21,8 +25,11 @@
         border-radius: 15px;
     }
 
+    #texto-login {
+        margin-top: 105px;
+    }
+
     #escrita {
-        color: #585858;
         width: 275px;
         height: 35px;
         border-radius: 18px;
