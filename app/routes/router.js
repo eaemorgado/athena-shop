@@ -27,7 +27,7 @@ router.post("/login", function(req, res){
 });
 
 router.post("/produto", function(req, res){
-    res.json(req.body)
+    res.json("pages/produto")
 });
 
 router.post(

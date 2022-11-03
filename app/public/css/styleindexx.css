@@ -1,17 +1,13 @@
 body{
-    display: flex;
+    
     max-width: 380px;
 }
 
 header{
     background-color: #EDEDED;
-    display: flex;
     max-height: 100px;
 }
 
-main {
-    display:flex;
-}
 
 body header a img {
     max-width: 250px;
