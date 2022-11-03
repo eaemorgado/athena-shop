@@ -4,15 +4,19 @@
 
 @media only screen and (max-width: 390px) {
  
+    body {
+        background-color: #EBEBEB;
+    }
+
     .container{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        background-color: #EBEBEB;
+        align-items: center;
     }
 
-    .tudo-do-login {
-       justify-content: center;
+    #logoathena {
+        align-items: center;
     }
 
     .area-login {
@@ -59,6 +63,7 @@
         margin-top: 10px;
     }
 
+
     .icones{
         flex-direction: row;
         justify-content: center;
@@ -66,20 +71,25 @@
 
     .google {
         width: 150px;
-        height: 50px;
+        height: 43px;
+        margin-top: 15px;
+        margin-left: 35px;
         background-color: white;
         border-radius: 8px;
         border-width: 1px;
         border-color: #FFB74A;
+        border-style: solid;
     }
 
     .facebook {
         width: 150px;
-        height: 50px;
+        height: 43px;
         background-color: white;
+        margin-left: 200px;
         border-radius: 8px;
         border-width: 1px;
         border-color: #FFB74A;
+        border-style: solid;
     }
 
     #google {
@@ -87,6 +97,9 @@
         height: 29px;
         max-width: 29px;
         max-height: 29px;
+        margin-right: 20px;
+        margin-left: 5px;
+        margin-top: 5px;
     }
 
     #facebook {
@@ -94,6 +107,9 @@
         height: 29px;
         max-width: 29px;
         max-height: 29px;
+        margin-right: 20px;
+        margin-left: 5px;
+        margin-top: 5px;
     }
 
     #cadastrar{
