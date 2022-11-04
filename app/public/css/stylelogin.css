@@ -16,7 +16,7 @@
     }
 
     #logoathena {
-        align-items: center;
+        margin-top: 25px;
     }
 
     .area-login {
@@ -29,8 +29,8 @@
         border-radius: 15px;
     }
 
-    #texto-login {
-        margin-top: 105px;
+    .texto {
+        margin-top: 10px;
     }
 
     #escrita {
@@ -65,15 +65,17 @@
 
 
     .icones{
+        display: flex;
         flex-direction: row;
         justify-content: center;
+        align-items: center;
     }
 
     .google {
         width: 150px;
-        height: 43px;
-        margin-top: 15px;
-        margin-left: 35px;
+        height: 40px;
+        margin-top: 10px;
+        margin-right: 15px;
         background-color: white;
         border-radius: 8px;
         border-width: 1px;
@@ -83,9 +85,9 @@
 
     .facebook {
         width: 150px;
-        height: 43px;
+        height: 40px;
+        margin-top: 10px;
         background-color: white;
-        margin-left: 200px;
         border-radius: 8px;
         border-width: 1px;
         border-color: #FFB74A;
@@ -93,20 +95,20 @@
     }
 
     #google {
-        width: 29px;
-        height: 29px;
-        max-width: 29px;
-        max-height: 29px;
+        width: 30px;
+        height: 30px;
+        max-width: 30px;
+        max-height: 30px;
         margin-right: 20px;
         margin-left: 5px;
         margin-top: 5px;
     }
 
     #facebook {
-        width: 29px;
-        height: 29px;
-        max-width: 29px;
-        max-height: 29px;
+        width: 30px;
+        height: 30px;
+        max-width: 30px;
+        max-height: 30px;
         margin-right: 20px;
         margin-left: 5px;
         margin-top: 5px;
