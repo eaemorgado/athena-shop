@@ -30,7 +30,7 @@
     }
 
     .texto {
-        margin-top: 20px;
+        padding-top: 10px;
     }
 
     #escrita {
@@ -50,12 +50,16 @@
     }
 
     #entrar {
-        background-color: #3E3E3E;
+        background-color: #000;
         color: white;
         width: 129px;
         height: 42.15px;
         border-radius: 10px;
         margin-top: 20px;
+    }
+
+    #entrar:hover {
+        background-color: #3E3E3E;
     }
 
     .termos {
@@ -66,8 +70,6 @@
         margin-right: 150px;
         margin-top: 10px;
     }
-
-
 
     .icones{
         display: flex;
@@ -88,6 +90,10 @@
         border-style: solid;
     }
 
+    .txt-google {
+        
+    }
+
     .facebook {
         width: 150px;
         height: 40px;
@@ -99,6 +105,7 @@
         border-style: solid;
     }
 
+    
     #google {
         width: 30px;
         height: 30px;
@@ -122,10 +129,14 @@
     #cadastrar{
         margin-left: 130px;
         margin-top: 75px;
-        background-color: #3E3E3E;
+        background-color: #000;
         color: white;
         width: 129px;
         height: 42.15px;
         border-radius: 10px;
+    }
+
+    #cadastrar:hover {
+        background-color: #3E3E3E;
     }
 }
