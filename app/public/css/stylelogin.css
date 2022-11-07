@@ -4,11 +4,19 @@
 
 @media only screen and (max-width: 390px) {
  
+    body {
+        background-color: #EBEBEB;
+    }
+
     .container{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        background-color: #EBEBEB;
+        align-items: center;
+    }
+
+    #logoathena {
+        margin-top: 25px;
     }
 
     .area-login {
@@ -21,8 +29,11 @@
         border-radius: 15px;
     }
 
+    .texto {
+        padding-top: 10px;
+    }
+
     #escrita {
-        color: #585858;
         width: 275px;
         height: 35px;
         border-radius: 18px;
@@ -39,7 +50,7 @@
     }
 
     #entrar {
-        background-color: #3E3E3E;
+        background-color: #000;
         color: white;
         width: 129px;
         height: 42.15px;
@@ -47,55 +58,85 @@
         margin-top: 20px;
     }
 
-    #box {
-        margin-right: 250px;
+    #entrar:hover {
+        background-color: #3E3E3E;
+    }
+
+    .termos {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-right: 150px;
         margin-top: 10px;
     }
 
     .icones{
+        display: flex;
         flex-direction: row;
         justify-content: center;
+        align-items: center;
     }
 
     .google {
         width: 150px;
-        height: 50px;
+        height: 40px;
+        margin-top: 10px;
+        margin-right: 15px;
         background-color: white;
         border-radius: 8px;
         border-width: 1px;
         border-color: #FFB74A;
+        border-style: solid;
+    }
+
+    .txt-google {
+        
     }
 
     .facebook {
         width: 150px;
-        height: 50px;
+        height: 40px;
+        margin-top: 10px;
         background-color: white;
         border-radius: 8px;
         border-width: 1px;
         border-color: #FFB74A;
+        border-style: solid;
     }
 
+    
     #google {
-        width: 29px;
-        height: 29px;
-        max-width: 29px;
-        max-height: 29px;
+        width: 30px;
+        height: 30px;
+        max-width: 30px;
+        max-height: 30px;
+        margin-right: 20px;
+        margin-left: 5px;
+        margin-top: 5px;
     }
 
     #facebook {
-        width: 29px;
-        height: 29px;
-        max-width: 29px;
-        max-height: 29px;
+        width: 30px;
+        height: 30px;
+        max-width: 30px;
+        max-height: 30px;
+        margin-right: 20px;
+        margin-left: 5px;
+        margin-top: 5px;
     }
 
     #cadastrar{
         margin-left: 130px;
         margin-top: 75px;
-        background-color: #3E3E3E;
+        background-color: #000;
         color: white;
         width: 129px;
         height: 42.15px;
         border-radius: 10px;
+    }
+
+    #cadastrar:hover {
+        background-color: #3E3E3E;
     }
 }
