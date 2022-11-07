@@ -4,68 +4,154 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Area Login</title>
-    <link rel="stylesheet" type="" href="css/stylelogin.css" media="screen" />
+    <title>Athena Shop - home</title>
     <link rel="stylesheet" href="css/reset.css">
-    <meta name="theme-color" content="#181818">
-    
+    <link rel="stylesheet" href="css/styleindex.css">
 </head>
 <body>
     <header>
-
-    <div class="container">
-
-            <img src="img/logoathenapreta.png" alt="logo athena" id="logoathena">
+        <a href="login">
+            <img src="img/logo_preta_sem_fundo.png" alt="logo-athena">
+        </a>
+        <input type="button" value="" id="menu">
+        <input type="button" value="" id="compras">  
+        <div id="divBusca">
+            <img src="" alt="Buscar..."/>
+            <input type="text" id="txtBusca" placeholder="Procurando alguma coisa?" />
+            <input type="button" id="buscar" value=""> 
+          </div>
+          
+          
+        <nav id="navegacao">
+            <input type="button" value="Para você" id="navb">
+            <input type="button" value="Uniformes" id="navb">
+            <input type="button" value="Materiais" id="navb">
+            <input type="button" value="Ultensílios" id="navb">
+        </nav>
     </header>
     <main>
-        
-        <div class="area-login">
-                <h2 class="texto">Login</h2>
-                <form method="post" action="/login">
-
-            <div class="email">
-                <input type="text" id="escrita" value="E-mail" onfocus="this.value='';">
-                <label for="E-mail"></label>
-            </div>
-
-                <div class="senha">
-                
-                    <input type="text" id="escrita" value="Senha" onfocus="this.value='';">
-                    <label for="Senha"></label>
-                </div>
-                
-                <div class="termos">
-                    <input type="checkbox" id="box">
-                    <h6>Lembrar Senha</h6>
-                </div>
-            
-                <a href="index">
-                <input type="submit" value="Entrar" id="entrar">
-                </a>
-            </form>
+        <h2>Destaques</h2>
+        <div class="Produto">
+            <img src="" alt="">
+            <p>Relógio caro</p>
+            <p>R$119,90</p>
+        </div>
+        <div class="Produto2">
+            <img src="Mochila_preta.png" alt="">
+            <p>Mochila preta de exemplo</p>
+            <p>R$119,90</p>
+        </div>
+        <div class="Produto3">
+            <img src="Mochila_preta.png" alt="">
+            <p>Mochila preta de exemplo</p>
+            <p>R$119,90</p>
+        </div>
+        <div class="Produto4">
+            <img src="Mochila_preta.png" alt="">
+            <p>Mochila preta de exemplo</p>
+            <p>R$119,90</p>
+        </div>
+        <h2>Descobertas</h2>
+        <h4>Uniformes</h4>
+        <div>
+            <img src="" alt="">
+            <p>Uniforme Escolar Branco</p>
+            <p>R$95,00</p>
+        </div>
+        <div>
+            <img src="" alt="">
+            <p>Uniforme Escolar Preto</p>
+            <p>R$97,00</p>
+        </div>
+        <div>
+            <img src="" alt="">
+            <p>Uniforme Escolar Azul </p>
+            <p>R$92,00</p>
+        </div>
+        <div>
+            <img src="" alt="">
+            <p>Uniforme Escolar Cinza</p>
+            <p>R$85,00</p>
+        </div>
+        <h4>Materiais</h4>
+        <div>
+            <img src="" alt="">
+            <p>Lápis Grafite Faber Castell</p>
+            <p>R$2,50</p>
+        </div>
+        <div>
+            <img src="" alt="">
+            <p>Lápis de Cor Faber Castell</p>
+            <p>R$15,00</p>
+        </div>
+        <div>
+            <img src="" alt="">
+            <p>Borracha</p>
+            <p>R$0,90</p>
+        </div>
+        <div>
+            <img src="" alt="">
+            <p>Apontador</p>
+            <p>R$1,50</p>
+        </div>
+        <h4>Uténsilios</h4>
+        <div>
+            <img src="" alt="">
+            <p>Estojo Preto</p>
+            <p>R$35,90</p>
+        </div>
+        <div>
+            <img src="" alt="">
+            <p>Estojo Azul</p>
+            <p>R$45,00</p>
+        </div>
+        <div>
+            <img src="" alt="">
+            <p>Compasso</p>
+            <p>R$8,90</p>
+        </div>
+        <div>
+            <img src="" alt="">
+            <p>Caneta Corretivo</p>
+            <p>R$12,90</p>
+        </div>
+        <br>
+        <h1>O que é a Athena Shop?</h1>
+        <p>Somos um grupo que buscamos viabilizar a venda de utensílios escolares. Evitando atrasos e agilizando as entregas!</p>
+        <div class="atendimento">
+            <img src="iconemsg.png" alt="">
+            <h4>Atendimento</h4>
+            <p>Atendimento rapido e acessivel para todos! garantia e segurança na sua compra </p>
         </div>
 
-    </div>
+        <div class="entregas">
+            <img src="" alt="">
+            <h4>Entregas</h4>
+            <p>Tera um sistema de entrega especializado para acelerar o recebimento do pedido</p>
+        </div>
+        
+        <div class="produto">
+            <img src="" alt="">
+            <h4>Produto</h4>
+            <p>Produtos na melhor qualidade possivel, variedades para atender a todo publico</p>
 
-    <div class="icones">
-            <div class="google">
-                <img src="img/google.png" alt="logo-google" id="google">
-                Google
-             </div>
-
-                <div class="facebook">
-                    <img src="img/facebook.png" alt="logo-facebook" id="facebook">
-                    Facebook
-                </div>
-            
-    </div>
-
-                <div class="cadastrar">
-                    <a href="cadastro">
-                        <input type="button" value="Cadastrar-se" id="cadastrar">
-                    </a>
-            </div>
-
+        </div>
+        <br>
     </main>
+    <footer>
+        <br>
+        <div>
+            <h4>Inserir copyright quando nós tivermos kkk</h4>
+            <a href=""> <h4>Contato suporte</h4> </a>
+            <a href=""> <h4>Sobre Nós</h4> </a>
+            <a href=""> <h4>Termos e condições</h4> </a>
+            <a href=""> <h4>Ajuda</h4> </a>
+            <a href=""> <h4>Fornecedores</h4> </a>
+        </div>
+        <br>
+        <h5>Confira nossas redes sociais</h5>
+        <img src="facebook.png" alt="">
+        <img src="" alt="">
+    </footer>
 </body>
 </html>

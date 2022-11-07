@@ -18,16 +18,48 @@ router.get("/produto", function(req, res){
     res.render("pages/produto", {retorno: null, erros: null})}
 );
 
+router.get("/config", function(req, res){
+    res.render("pages/config", {retorno: null, erros: null})}
+);
+
+router.get("/carteira", function(req, res){
+    res.render("pages/carteira", {retorno: null, erros: null})}
+);
+
+router.get("/menu", function(req, res){
+    res.render("pages/menu", {retorno: null, erros: null})}
+);
+
+router.get("/perfil", function(req, res){
+    res.render("pages/perfil", {retorno: null, erros: null})}
+);
+
 router.post("/cadastro", function(req, res){
-    res.render("pages/cadastro")
+    res.render("pages/index")
+});
+
+router.post("/carteira", function(req, res){
+    res.render("pages/index")
+});
+
+router.post("/config", function(req, res){
+    res.render("pages/index")
+});
+
+router.post("/menu", function(req, res){
+    res.render("pages/index")
+});
+
+router.post("/perfil", function(req, res){
+    res.render("pages/index")
 });
 
 router.post("/login", function(req, res){
-    res.render("pages/login")
+    res.render("pages/index")
 });
-
+ 
 router.post("/produto", function(req, res){
-    res.json("pages/produto")
+    res.json(req.body)
 });
 
 router.post(
