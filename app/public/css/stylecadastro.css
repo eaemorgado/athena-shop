@@ -1,150 +1,128 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,700;1,300&display=swap');
 
 @media only screen and (max-width: 390px) {
-    body{
-        max-width: 390px;
-            max-height: 800px;
-            background-color: #fafafa;
+    
+    body {
+        font-family: 'Josefin Sans', sans-serif;
+        background-color: #EBEBEB;
     }
 
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 
-body,main,h6{
-    font-family: 'Josefin Sans', sans-serif;
-    color: #181818;;
-}
+    #logo-athena {
+        margin-top: 50px;
+        
+        height: 150px;
+    }
 
-body main {
-    display: block;
-    margin: auto 0px;
-}
-
-
-body header img {
-    max-width: 300px;
-    max-height: 300px;
-    display: block;
-    margin: 0px auto;
-    
-    
-}
-
-#escrita {
-    border-radius: 8px;
-    max-width: 311px;
-    max-height: 45px;
-    width: 290px;   
-    height: 35px;
-    border: 0px;
-    margin: 10px;
-    margin-left: 0px;
-    margin-right: 0px;
-    outline: 0px;
-    color: #707070;
-    font-family: 'Josefin Sans', sans-serif;
-    padding-left: 10px;
-    padding-right: 10px;
-    background-color: #fafafa;
-    
-} 
-
-
-
-
-
-main div{
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: bold;
-    text-align: center;
-    font-size: xx-large;
-    margin: 10%;
-    color: #181818;
-}
-
-
-
-main:nth-child(2) {
-    height: 500px;
-    max-width: 390px;
-    background-color: #f6d088;
-    border-radius: 30px 30px 0px 0px;
-    transform: translate(0px, -50px);
-}
-
-
-main h2{
-    font-family: 'Josefin Sans', sans-serif;
-        font-weight: bold;
+    .area-login {
+        width: 322px;
+        height: 350px;
+        background-color: #FFB74A;
+        margin-top: 50px;
+        margin-left: 32.5px;
         text-align: center;
-        font-size: xx-large;
-        margin: 10%;
-        color: #181818;
-        transform: translate( 0px, 30px  );
-}
+        border-radius: 15px;
+        padding-top: 20px;
+        box-shadow: 0px 5px 15px rgb(177, 177, 177);
+    }
+
+    #escrita {
+        width: 275px;
+        height: 35px;
+        border-radius: 8px;
+        text-align: left;
+        border: 0px;
+        box-shadow: 0px 5px 15px rgb(246, 177, 72);
+    }
+
+    .nome {
+        margin-top: 35px;
+    }
+
+    .email {
+        margin-top: 20px;
+    }
+
+    .senha{
+        margin-top: 20px;
+    }
+
+    .confirmar-senha {
+        margin-top: 20px;
+    }
+
+    #box {
+        width: 20px;
+        height: 20px;
+        border-radius: 15px;
+    }
+
+    .termos {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-right: 150px;
+        margin-top: 10px;
+    }
+
+    .icones{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 15px;
+    }
+
+    .google {
+        width: 150px;
+        height: 40px;
+        margin-top: 10px;
+        margin-right: 15px;
+        background-color: white;
+        border-radius: 8px;
+        border-width: 1px;
+        border-color: #FFB74A;
+        border-style: solid;
+        box-shadow: 0px 5px 15px rgb(177, 177, 177);
+    }
 
 
+    .facebook {
+        width: 150px;
+        height: 40px;
+        margin-top: 10px;
+        background-color: white;
+        border-radius: 8px;
+        border-width: 1px;
+        border-color: #FFB74A;
+        border-style: solid;
+        box-shadow: 0px 5px 15px rgb(177, 177, 177);
+    }
 
+    #google {
+        width: 30px;
+        height: 30px;
+        max-width: 30px;
+        max-height: 30px;
+        margin-right: 20px;
+        margin-left: 5px;
+        margin-top: 5px;
+    }
 
-
-#button{
-    border-radius: 15px;
-    max-width: 327px;
-    max-height: 45px;
-    width: 311px;
-    height: 35px;
-    outline: 0px;
-    border: 0px;
-    color: #fafafa;
-    background-color: #181818;
-    font-family: 'Josefin Sans', sans-serif;
-    transform: translate(40px, 0px);
-    font-size: medium;
-   
-}
-
-#google {
-    max-width: 35px;
-    max-height: 35px;
-    transform: translate(100px);
-    margin: 0px;
-    
-
-}
-
-#facebook {
-    max-width: 35px;
-    max-height: 35px;
-    transform: translatep( 100px, 50px );
-    margin: 0px;
-    
-
-}
-
-#termos {
-    margin: auto 0px;
-    transform: translate(30px, -15px);
-    font-family: 'Josefin Sans', sans-serif;
-}
-
-
-main {
-    display: block;
-    margin: auto 0px;
-}
-
-#termos {
-    margin: auto 0px;
-    transform: translate(30px, -15px);
-    font-family: 'Josefin Sans', sans-serif;
-}
-
-
-}
-
-@media only screen and (min-width: 391px ) {
-    body{
-        display: none;
+    #facebook {
+        width: 30px;
+        height: 30px;
+        max-width: 30px;
+        max-height: 30px;
+        margin-right: 20px;
+        margin-left: 5px;
+        margin-top: 5px;
     }
 }
-
-
-

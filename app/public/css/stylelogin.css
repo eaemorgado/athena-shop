@@ -5,6 +5,7 @@
 @media only screen and (max-width: 390px) {
  
     body {
+        font-family: 'Josefin Sans', sans-serif;
         background-color: #EBEBEB;
     }
 
@@ -15,15 +16,15 @@
         align-items: center;
     }
 
-    #logoathena {
+    #logo-athena {
         margin-top: 50px;
         
         height: 150px;
     }
-
+    
     .area-login {
         width: 322px;
-        height: 293px;
+        height: 270px;
         background-color: #FFB74A;
         margin-top: 50px;
         margin-left: 32.5px;
@@ -33,19 +34,13 @@
         box-shadow: 0px 5px 15px rgb(177, 177, 177);
     }
 
-    .checkbox {
-        display: flex;
-        flex-direction: row;
-        margin-left: 20px;
-        margin-top: 10px;
-    }
-
     #escrita {
         width: 275px;
         height: 35px;
-        border-radius: 18px;
+        border-radius: 8px;
         text-align: left;
         border: 0px;
+        box-shadow: 0px 5px 15px rgb(246, 177, 72);
     }
 
     .email {
@@ -65,8 +60,10 @@
         margin-top: 20px;
     }
 
-    #entrar:hover {
-        background-color: #3E3E3E;
+    #box {
+        width: 20px;
+        height: 20px;
+        border-radius: 15px;
     }
 
     .termos {
@@ -74,7 +71,7 @@
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        margin-right: 150px;
+        margin-left: 20px;
         margin-top: 10px;
     }
 
