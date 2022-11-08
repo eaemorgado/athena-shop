@@ -16,9 +16,9 @@
     }
 
     #logoathena {
-        margin-top: 25px;
-        width: 241px;
-        height: 191px;
+        margin-top: 50px;
+        
+        height: 150px;
     }
 
     .area-login {
@@ -30,7 +30,7 @@
         text-align: center;
         border-radius: 15px;
         padding-top: 20px;
-        box-shadow: 0px 0px 10px black;
+        box-shadow: 0px 5px 15px rgb(177, 177, 177);
     }
 
     .checkbox {
@@ -96,7 +96,7 @@
         border-width: 1px;
         border-color: #FFB74A;
         border-style: solid;
-        box-shadow: 0px 0px 5px black;
+        box-shadow: 0px 5px 15px rgb(177, 177, 177);
     }
 
 
@@ -109,7 +109,7 @@
         border-width: 1px;
         border-color: #FFB74A;
         border-style: solid;
-        box-shadow: 0px 0px 5px black;
+        box-shadow: 0px 5px 15px rgb(177, 177, 177);
     }
 
     
@@ -141,7 +141,7 @@
         width: 129px;
         height: 42.15px;
         border-radius: 10px;
-        box-shadow: 0px 0px 5px black;
+        box-shadow: 0px 5px 15px rgb(177, 177, 177);
     }
 
 }
