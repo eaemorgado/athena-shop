@@ -6,171 +6,77 @@
 
   /* CSS DISPLAY GRID CONFIG*/
 
-  .container{
-    max-width: 380px;
-    margin: 0px auto;
-    border: 1px solid red
+  body {
+    background-color: #EBEBEB;
   }
 
-    body{
-      display: grid;
-    }
-    body header a img {
-        max-width: 250px;
-        max-height: 250px;
-    }
+  .logo-menu{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+  }
 
-    #txtBusca::-webkit-input-placeholder{
-      translate: 10px, 0px;
-    }
+  #logo-athena {
+    margin-top: 15px;
+    margin-left: 25px;
+    height: 115px;
+  }
 
-    #escrita {
-        border-radius: 8px;
-        max-width: 311px;
-        max-height: 45px;
-        width: 290px;   
-        height: 35px;
-        border: 0px;
-        outline: 0px;
-        color: #707070;
-        font-family: 'Josefin Sans', sans-serif;
-        padding-left: 10px;
-        padding-right: 10px;
-        background-color: #fafafa;
-        
-    } 
+  .menus {
+    margin-top: 50px;
+  }
 
-    #buscar {
-        background-color: #f6d088;
-        outline: 0px;
-        border: 0px;
-        border-radius: 8px;
-        width: 35px;
-        height: 35px;
-        transform: translate(0px, -212px);
-        margin: 3px;
-    }
+  #menu {
+    margin-right: 25px;
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    border: 0px;
+    border-radius: 8px;
+  }
 
-    body header nav {
-        
-        margin-left: 20px;
-        margin-top: 5px;
-    }
+  #carrinho {
+    margin-right: 15px;
+    height: 40px;
+    width: 40px;
+    background-color: #FFB74A;
+    border: 0px;
+    border-radius: 8px;
+    box-shadow: 0px 5px 15px rgb(235, 235, 235);
+  }
 
-    #navb {
-        background-color: #f6d088;
-        border: 0px;
-        border-radius: 8px;
-        width: 85px;
-        height: 30px;
-        font-family: 'Josefin Sans', sans-serif;
-        color: #181818;
-        
-    }
+  #txtbusca {
+    width: 275px;
+    height: 35px;
+    border-radius: 8px;
+    margin-left: 25px;
+    box-shadow: 0px 5px 15px rgb(235, 235, 235);
+    border: 0px;
+  }
 
-    body {
-        background-color: #ededed;
-    }
+  .div-busca{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
 
-    body header {
-        max-height: 180px;
-    }
+  .pesquisar {
+    margin-right: 25px;
+    width: 40px;
+    height: 40px;
+    background-color: #FFB74A;
+    border: 0px;
+    border-radius: 8px;
+    box-shadow: 0px 5px 15px rgb(235, 235, 235);
+  }
 
-    #menu {
-        background-color: white;
-        outline: 0px;
-        border: 0px;
-        border-radius: 8px;
-        width: 35px;
-        height: 35px;
-        margin: 3px;
-    }
-
-    #compras {
-        background-color: #f6d088;
-        outline: 0px;
-        border: 0px;
-        border-radius: 8px;
-        width: 35px;
-        height: 35px;
-        margin: 3px;
-    }
-
-
-    
-      
-      #txtBusca{
-        border-radius: 8px;
-        max-width: 311px;
-        max-height: 45px;
-        width: 290px;   
-        height: 35px;
-        border: 0px;
-        margin: 10px;
-        margin-left: 20px;
-        margin-right: 0px;
-        outline: 0px;
-        color: #707070;
-        font-family: 'Josefin Sans', sans-serif;
-        padding-left: 10px;
-        padding-right: 10px;
-        background-color: #fafafa;
-      }
-
-      main h2{
-        font-family: 'Josefin Sans', sans-serif;
-        font-weight: bold;
-        text-align: center;
-        font-size: xx-large;
-        margin: 10%;
-        color: #181818;
-      }
-
-      .container {
-        overflow: auto;
-        white-space: nowrap;
-        padding: 5px 70px 5px 20px;
-        background: transparent;
-        height: 100%;
-        border-radius:15px; 
-      }
-
-      main h1{
-        font-family: 'Josefin Sans', sans-serif;
-        text-align: center;
-      }
-      main p{
-        text-align: center;
-        color: #707070;
-        font-family: 'Josefin Sans', sans-serif;
-        font-weight: 100;
-      }
-
-      .atendimento{
-        padding: 10px;
-        width: 150px;
-        height: 150px;
-        background-color: white;
-        border-radius: 15px;
-      }
-      .entregas{
-        width: 150px;
-        height: 150px;
-        margin: 10px;
-        background-color: white;
-        border-radius: 15px;
-      }
-
-      .produto{
-        width: 150px;
-        height: 150px;
-        margin: 10px;
-        text-align: center;
-        background-color: white;
-        border-radius: 15px;
-     }
-
-    }
-    main div h4{
-      font-family: 'Josefin Sans', sans-serif;
-    }
+  .categorias{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10px;
+  }
+}

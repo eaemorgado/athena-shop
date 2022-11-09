@@ -10,28 +10,55 @@
 </head>
 <body>
     <header>
-        <img src="img/logo_amarela_sem_fundo.png" alt="logo athena">
+
+        <div class="container">
+
+        <img src="img/logo_preta.png" alt="logo athena" id="logo-athena">
     </header>
+
     <main>
-        <h2>Cadastro</h2>
-        <form method="post" action="/cadastro">
-            <div id="arealogin">
-                <input type="text" name="Nome" id="escrita" value="Nome" onfocus="this.value='';">
-                <input type="text" name="E-mail" id="escrita" value="E-mail" onfocus="this.value='';">
-                <input type="text" name="Senha" id="escrita" value="Senha" onfocus="this.value='';">
-                <input type="text" name="Confirmar" id="escrita" value="Confirmar senha" onfocus="this.value='';">
+       
+        <div class="area-login">
+
+            <h2>Cadastro</h2>
+
+            <form method="post" action="/cadastro">
+
+                <div class="nome">
+                    <input type="text" name="Nome" id="escrita" value="Nome" onfocus="this.value='';">
+                </div>   
+
+                <div class="email">
+                    <input type="text" name="E-mail" id="escrita" value="E-mail" onfocus="this.value='';">
+                </div>
+
+                <div class="senha">
+                    <input type="text" name="Senha" id="escrita" value="Senha" onfocus="this.value='';">
+                </div>
+
+                <div class="confirmar-senha">
+                    <input type="text" name="Confirmar" id="escrita" value="Confirmar senha" onfocus="this.value='';">
+                </div>
+            
+            <div class="termos">
+                <input type="checkbox" id="box">
+                <h2> Concordo com os <a href="">termos de serviço</a>. </h2>
             </div>
-        
-            <input type="checkbox">
-            <h6 id="termos"> não Eu li, e concordo com os <a href="">termos de serviço</a> </h6>
+
             <a href="index">
                 <input type="submit" value="Cadastrar-se" id="button">
             </a>
+            </div>
+        </div>
+
         </form>
-        <div class="icon-social">
+
+        <div class="icones">
             <img src="img/google.png" alt="logo-google" id="google">
             <img src="img/facebook.png" alt="logo-facebook" id="facebook">
         </div>
+
     </main>
+
 </body>
 </html>
