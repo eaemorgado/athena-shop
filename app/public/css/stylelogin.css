@@ -58,6 +58,7 @@
         height: 42.15px;
         border-radius: 10px;
         margin-top: 20px;
+        border: 0px;
     }
 
     #box {
@@ -69,12 +70,15 @@
     .termos {
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
         margin-left: 20px;
         margin-top: 10px;
     }
 
+    #senha-termos{
+        margin-left: 5px;
+    }
     .icones{
         display: flex;
         flex-direction: row;
@@ -139,6 +143,7 @@
         height: 42.15px;
         border-radius: 10px;
         box-shadow: 0px 5px 15px rgb(177, 177, 177);
+        border: 0px;
     }
 
 }
