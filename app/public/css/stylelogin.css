@@ -5,7 +5,7 @@
 @media only screen and (max-width: 390px) {
  
     body {
-        font-family: 'Josefin Sans', sans-serif;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         background-color: #EBEBEB;
     }
 
@@ -34,6 +34,12 @@
         box-shadow: 0px 5px 15px rgb(177, 177, 177);
     }
 
+    #txt-login{
+        font-size: 200%;
+        font-weight: bold;
+        margin: 0%;
+    }
+
     #escrita {
         width: 275px;
         height: 35px;
@@ -44,7 +50,7 @@
     }
 
     .email {
-        margin-top: 35px;
+        margin-top: 25px;
     }
 
     .senha{
@@ -88,6 +94,10 @@
     }
 
     .google {
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        align-items: center;
         width: 150px;
         height: 40px;
         margin-top: 10px;
@@ -98,10 +108,15 @@
         border-color: #FFB74A;
         border-style: solid;
         box-shadow: 0px 5px 15px rgb(177, 177, 177);
+        font-weight: bold;
     }
 
 
     .facebook {
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        align-items: center;
         width: 150px;
         height: 40px;
         margin-top: 10px;
@@ -111,6 +126,7 @@
         border-color: #FFB74A;
         border-style: solid;
         box-shadow: 0px 5px 15px rgb(177, 177, 177);
+        font-weight: bold;
     }
 
     
@@ -121,7 +137,6 @@
         max-height: 30px;
         margin-right: 20px;
         margin-left: 5px;
-        margin-top: 5px;
     }
 
     #facebook {
@@ -131,7 +146,6 @@
         max-height: 30px;
         margin-right: 20px;
         margin-left: 5px;
-        margin-top: 5px;
     }
 
     #cadastrar{

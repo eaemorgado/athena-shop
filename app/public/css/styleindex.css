@@ -6,28 +6,29 @@
 
   /* CSS DISPLAY GRID CONFIG*/
 
-  body {
+body {
     background-color: #EBEBEB;
   }
 
-  .logo-menu{
+.logo-menu{
       display: flex;
       flex-direction: row;
       justify-content: space-between;
       align-items: center;
   }
 
-  #logo-athena {
+#logo-athena {
     margin-top: 15px;
     margin-left: 25px;
     height: 115px;
   }
 
-  .menus {
+.menus {
     margin-top: 50px;
   }
 
-  #menu {
+#menu {
+    margin: 0%;
     margin-right: 25px;
     height: 40px;
     width: 40px;
@@ -36,7 +37,7 @@
     border-radius: 8px;
   }
 
-  #carrinho {
+#carrinho {
     margin-right: 15px;
     height: 40px;
     width: 40px;
@@ -46,7 +47,7 @@
     box-shadow: 0px 5px 15px rgb(235, 235, 235);
   }
 
-  #txtbusca {
+#txtbusca {
     width: 275px;
     height: 35px;
     border-radius: 8px;
@@ -55,14 +56,14 @@
     border: 0px;
   }
 
-  .div-busca{
+.div-busca{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
   }
 
-  .pesquisar {
+.pesquisar {
     margin-right: 25px;
     width: 40px;
     height: 40px;
@@ -72,11 +73,19 @@
     box-shadow: 0px 5px 15px rgb(235, 235, 235);
   }
 
-  .categorias{
+.categorias{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
     margin-top: 10px;
   }
+
+#navb{
+  border: 1px;
+  border-style: solid;
+  border-color: #b48339;
+  background-color: #FFB74A;
+  width: 80px;
+}
 }
