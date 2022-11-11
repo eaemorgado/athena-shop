@@ -67,7 +67,7 @@
         width: 20px;
         height: 20px;
         border-radius: 15px;
-        margin-left: 25px;
+        margin-left: 90px;
     }
 
     .termos {
@@ -82,6 +82,8 @@
     #txt-termos{
         width: 200px;
         font-size: 80%;
+        word-wrap: normal;
+        white-space: nowrap;
     }
     
 
